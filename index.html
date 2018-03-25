@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--This is is used to add the Emergent 911 logo icon and title in the page tab
-    <link rel="icon" href="images/favicon.ico">
-  -->
+    <!--This is is used to add the Emergent 911 logo icon in the page tab-->
+    <link rel="shortcut icon" href="http://www.iconj.com/ico/8/x/8x78vh3heg.ico" type="image/x-icon" />
+
+    <!--This is is used to add the Emergent 911 title in the page tab-->
     <title>McDonough Emergency Services</title>
 
     <!--CSS File-->
@@ -16,9 +17,12 @@
     <!--Bootstrap File-->
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
 
-    <!--Lato Light text font-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- W3 Schools and Google Icons: This will allow me to add a search icon to the site  -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|IBM+Plex+Serif" rel="stylesheet"> <!-- IBM Plex Serif and Blacks Ops fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
 
 </head>
@@ -31,23 +35,30 @@
                 <header> <!-- The header is specifically meant to cover the title, description, and search box areas -->
                 <!--Search box header and description-->
                 <h1 class="search-title">McDonough Emergency Services</h1>
-                <p class="search-description">Need to locate the nearest police station, fire department,
+                <hr class="line-under-search-title">
+                <p class="search-description">Need to locate the nearest police station
                   or hospital? Simply use this map to locate these places.</p>
+                <hr class="line-under-search-description">
                   <!-- The following lines of code will be used to set up the search box -->
                 <!--The submit binding adds an event handler so that the connected JavaScript function will be
                 invoked when the search button is clicked on. It's usually used with the form element. -->
-                <form class="form-inline" id="form-search" data-bind="submit: search">
+                <form class="form-inline search-form-design" id="form-search" data-bind="submit: search">
                   <!-- This means the expected input for the search box should be text. This also means that
                   we want to bind value to a variable called query. The place holder text for the search box
                   will be "Search" until text is typed into the box. -->
-                  <input type="text" class="form-control" data-bind="value: query" id="query-input" placeholder="Search"
+                  <input type="text" class="form-control search-box" data-bind="value: query" id="query-input" placeholder="Search"
                   autofocus>
-                  <!-- This means that the button is supposed to be used to submit the form. The button text
-                  will say "Search" -->
-                  <button type="submit" id="search-submit-button" class="btn btn-design">Search</button>
+                  <!-- This means that the button is supposed to be used to submit the form. The button will will have
+                a search icon -->
+                <button type="submit" id="search-submit-button" class="btn search-submit-button-background">
+                  <div class="w3-small search-icon-design"> <!--Sets the properties/style for the search icon -->
+                    <i class="material-icons search-button-background">search</i> <!--This states that I'm requesting to use the search icon -->
+                  </div>
+                </button>
                 </form>
                 <!-- This determines the number of results from the search filter-->
                 <p id="query-summary" data-bind="text: queryResult"> </p>
+                <hr class="line-under-search-form">
               </header>
         <!-- This will be used to list the results of the search for emergency services -->
         <aside>
@@ -56,12 +67,14 @@
                 <span data-bind="text: service.name"></span>
             </li>
           </ul>
+          <hr class="line-under-search-list">
         </aside>
       </div> <!-- class="search-options-section" closing div-->
     </div> <!--   <div class="col-md-4"> closing div -->
 
     <!-- Google Map-->
     <div class="col-md-8" id="map"> </div>
+
   </div> <!-- class="row" div -->
 </div> <!-- class="container"div -->
 
