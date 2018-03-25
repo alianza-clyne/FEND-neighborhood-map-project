@@ -13,7 +13,7 @@ If you select a location in the list, you'll be able to see exactly where it's l
 ----------------------------------------------
 Now, you may be wondering what Emergent 911 has to do with any of this. I'm currently in the process of developing a text-to-911 app called Emergent 911, and one of the features of the app is that it will not only be able to tell you exactly where you are located, but it will also tell you which hospitals and police stations are closest to you.
 
-So you know when Udacity asked me to create a neighborhood map project, there was no way I could resist paying homage to Emergent! I hope to be releasing Emergent 911 in the Google Play and Apple App Store later this year so if you are interested in receiving updates, be sure to subscribe to the Emergent 911 newsletter HERE!
+So you know when Udacity asked me to create a neighborhood map project, there was no way I could resist paying homage to Emergent! I hope to be releasing Emergent 911 in the Google Play and Apple App Store later this year so if you are interested in receiving updates, be sure to subscribe to the Emergent 911 newsletter here: http://bit.ly/mailing_e911!
 
 ## Let's Get This Puppy Up And Running!
 ----------------------------------------------
