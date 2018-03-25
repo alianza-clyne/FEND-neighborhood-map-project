@@ -8,7 +8,7 @@ body {
 
 .search-title {
   font-family: 'Black Ops One', cursive;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
   color: #7d97ad;
   opacity: 0.65;
@@ -204,11 +204,146 @@ body {
   }
 }
 
+/*Smaller tablets/larger phones*/
+@media only screen and (min-width: 420px) and  (max-width: 767px) {
+  .search-title {
+    font-family: 'Black Ops One', cursive;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: #7d97ad;
+    opacity: 0.65;
+  }
+
+  .search-description {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .search-form-design {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .search-box {
+    height: 39px;
+    max-width: 100%;
+  }
+
+
+  .search-icon-design {
+    visibility: hidden;
+  }
+
+  .search-submit-button-background {
+    visibility: hidden;
+  }
+
+  #query-summary {
+    margin-top: 2px;
+    margin-left: 21px;
+  }
+
+  .line-under-search-list {
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #7d97ad;
+    opacity: 0.2;
+  }
+
+  #map {
+    height: 500px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-left: 21px;
+    margin-right: 21px;
+  }
+}
+
+
 /*For Galaxy S5, Nexus 5X, Nexus 6P, iPhone 5SE, iPhone 6, iPhone 6 Plus*/
 @media only screen and (min-width: 320px) and  (max-width: 420px) {
   .search-title {
     font-family: 'Black Ops One', cursive;
     font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: #7d97ad;
+    opacity: 0.65;
+  }
+
+  .search-description {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .search-form-design {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .search-box {
+    height: 39px;
+    max-width: 100%;
+  }
+
+
+  .search-icon-design {
+    visibility: hidden;
+  }
+
+  .search-submit-button-background {
+    visibility: hidden;
+  }
+
+  #query-summary {
+    margin-top: 2px;
+    margin-left: 21px;
+  }
+
+  .line-under-search-list {
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #7d97ad;
+    opacity: 0.2;
+  }
+
+  #map {
+    height: 500px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-left: 21px;
+    margin-right: 21px;
+  }
+}
+
+/*For smaller phones w/ pixel width of 257-320*/
+@media only screen and (min-width: 257px) and  (max-width: 320px) {
+  .search-title {
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 20px;
