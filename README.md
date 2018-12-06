@@ -19,7 +19,7 @@ So you know when Udacity asked me to create a neighborhood map project, there wa
 ----------------------------------------------
 Now, I know you're salivating over the thought of seeing this Neighborhood Map! And luckily for you, it's easier than making a peanut butter and jelly sandwich!
 
-1. You can click here to access the site:  http://bit.ly/ac-map-project. If you want to put in the work, though, head on over to [Alianza's Github] (https://github.com/alianza-clyne/neighborhood-map-project) so you can clone or download this repository. Once you've done this, select the ```index.html``` file to open up the website!
+1. You can click here to access the site:  http://bit.ly/ac-map-project. If you want to put in the work, though, head on over to [Alianza's Github](https://github.com/alianza-clyne/neighborhood-map-project) so you can clone or download this repository. Once you've done this, select the ```index.html``` file to open up the website!
 2. Click on any of the places on the map or the list for more information
 3. If you have a place in mind, feel free to utilize the search bar to filter out places!
 4. Thought it couldn't get any better than this? It can! This site is responsive so feel free to access it on your mobile devices for a whole new feel!
