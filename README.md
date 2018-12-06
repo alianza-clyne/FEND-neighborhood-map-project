@@ -3,7 +3,7 @@
 
 Welcome to my Neighborhood Map Project! Udacity has challenged me to piece together a website that utilizes Google Maps and at least one other location-based API. Of course, given my venturous coder mentality, I had to take one for the team and accept the challenge!
 
-For my project, I have chosen to intertwine [Google Maps' JavaScript API] (http://bit.ly/2DTmniw) with [Foursquare's Search For Venues API] (http://bit.ly/2I1X4x9) in order to create am application that showcase hospitals :hospital: and police stations :oncoming_police_car: in or nearby McDonough, Georgia.
+For my project, I have chosen to intertwine [Google Maps' JavaScript API](http://bit.ly/2DTmniw) with [Foursquare's Search For Venues API](http://bit.ly/2I1X4x9) in order to create am application that showcase hospitals :hospital: and police stations :oncoming_police_car: in or nearby McDonough, Georgia.
 
 This application allows you to easily search for a nearby hospital or police station. Not sure of where to start? No worries because a list of all the local police stations and hospitals are listed in the app!
 
